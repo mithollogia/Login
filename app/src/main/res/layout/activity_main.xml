@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:id="@+id/principal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/bg1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@drawable/ic_bg1" />
+
+        <ImageView
+            android:id="@+id/bg2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="-730dp"
+            android:background="@drawable/ic_bg2" />
+
+        <ImageView
+            android:id="@+id/bg3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="-729dp"
+            android:background="@drawable/ic_bg3" />
+
+        <ImageView
+            android:id="@+id/bg4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="-729dp"
+            android:background="@drawable/ic_bg4" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/titles"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/logo"
+            android:text="Welcom!"
+            android:textColor="#fff"
+            android:textSize="46sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/slogan"
+            android:text="Divirta - se conosco"
+            android:textColor="#5E7184"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:id="@+id/logar"
+            android:text="Login"
+            android:textColor="#fff"
+            android:layout_width="140dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttom"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:id="@+id/membro"
+            android:text="Ainda não e membro?"
+            android:textColor="#5E7184"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/registrar"
+            android:text="Registre-se"
+            android:textColor="#FF4D60"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</RelativeLayout>
